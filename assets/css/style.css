@@ -84,7 +84,7 @@ border:1px red dashed;
     padding: 10px;
   }
   
-  .current {
+  #current {
     border: 1px solid black;
     padding: 10px;
     line-height: 1.75;
@@ -92,6 +92,13 @@ border:1px red dashed;
 
   h3 {
     font-size: 24px;
+    display: inline;
+  }
+
+  #weather-icon {
+    display: inline;
+    height: 50px;
+    transform: translateY(35%);
   }
   
   .forecast {

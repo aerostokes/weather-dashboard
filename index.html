@@ -6,8 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Weather Dashboard</title>
     <link rel="stylesheet" href="./assets/css/style.css">
-    <!-- Materialize -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"> -->
 </head>
 <body>
     <header>
@@ -21,18 +19,30 @@
                 <button id="search-btn">Search</button>
             </form>
             <ul id="prior-searches">
+                <li>temp city</li>
+                <li>temp city</li>
             </ul>
         </aside>
         <section class="weather">
-            <section class="current">
+            <section id="current">
+                <h3 id="city-date"></h3>
+                <img id="weather-icon" src="" alt="weather icon">
             </section>
             <section class="forecast">
                 <h4>5-Day Forecast:</h4>
                 <section id="card-container">
+                    <section class="card">
+                        <h5>temp date</h5>
+                            <p>temp condition</p>
+                            <p>temp condition</p>
+                            <p>temp condition</p>
+                    </section>
+
                 </section>
             </section>
 </section>
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/dayjs/1.11.7/dayjs.min.js" integrity="sha512-hcV6DX35BKgiTiWYrJgPbu3FxS6CsCjKgmrsPRpUPkXWbvPiKxvSVSdhWX0yXcPctOI2FJ4WP6N1zH+17B/sAA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./assets/js/script.js"></script>
 </body>
 </html>
