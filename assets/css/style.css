@@ -45,8 +45,8 @@
   }
 
   aside {
-    flex-basis: 15%;
-    flex-grow: 1;
+    flex-basis: 20%;
+    /* flex-grow: 1; */
     padding: 10px;
     font-size: 16px;
   }
@@ -77,8 +77,8 @@
     border: 0px;
   }
   
-  .weather {
-    flex-basis: 80%;
+  #weather {
+    flex-basis: 75%;
     flex-grow: 1;
     padding: 10px;
   }
@@ -131,3 +131,6 @@ h5 {
   height: 30px;
 }
 
+.hide {
+  display: none;
+}
