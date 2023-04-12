@@ -42,7 +42,7 @@ function searchGeocode(event) {
     event.preventDefault();
     var cityStr = document.getElementById("search-input").value.trim();
     if (cityStr) {
-        fetch("http://api.openweathermap.org/geo/1.0/direct?q=" + cityStr + "&limit=1&appid=" + apiKey).then(function(response) {
+        fetch("https://api.openweathermap.org/geo/1.0/direct?q=" + cityStr + "&limit=1&appid=" + apiKey).then(function(response) {
             if (response.ok) {
                 response.json().then(function(data) {
                     if (data.length > 0) {
